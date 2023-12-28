@@ -14,7 +14,7 @@ services:
       - MARIADB_PASSWORD=bn_jasperpwd
       - MARIADB_DATABASE=bitnami_jasperreports
   jasperreports:
-    build: ./
+    image: docker.io/palluk/jasperreports:lastest
     ports:
       - '80:8080'
     volumes:

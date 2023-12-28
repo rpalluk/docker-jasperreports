@@ -1,0 +1,1 @@
+docker buildx build . -t docker.io/palluk/jasperreports:8-bookworm
